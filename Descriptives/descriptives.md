@@ -1403,4 +1403,7 @@ Export (logged), D to R
 
 ### Democracy aidflow (1988-2016) as a bilateral network
 
+A couple years before and after the study timeframe was added to show
+that there were no big changes outside of the chosen timeframe.
+
 ![Aidflow: 1988-2016](aidflow_test3.gif)
