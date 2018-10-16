@@ -5,13 +5,34 @@ October 6, 2018
 
 ### About the data
 
-Unit of analysis: dyad-years
+**Unit of analysis**: dyad-years
 
-donor countries: 35 countries
+**Donor countries**: 35 countries
 
-recipient countries: 129 countries
+**Recipient countries**: 129 countries
 
-time period: 1991-2014
+**Time frame**: 1991-2014
+
+-----
+
+<br> <br>
+
+### Democracy aidflow (1988-2016) as a bilateral network
+
+  - In this animation showing the flow of democracy aid over the years,
+    it can be noted that:
+      - The volume of democracy aid increased rapidly in the 2000s
+      - In the post-9/11 period, we see the emergence of the USA as a
+        major donor and Iraq and Afghanistan as major recipients of
+        democracy aid
+
+![Aidflow: 1988-2016](aidflow_test3.gif)
+
+<br> <br>
+
+-----
+
+### Descriptive Statistics
 
 <table style="text-align:center">
 
@@ -197,7 +218,7 @@ Ideal Point Difference
 
 <td style="text-align:left">
 
-\<U+0394\> Ideal Point Difference
+Change in Ideal Point Difference
 
 </td>
 
@@ -1399,11 +1420,17 @@ Export (logged), D to R
 
 </table>
 
-<br> <br>
+-----
 
-### Democracy aidflow (1988-2016) as a bilateral network
+<br>
 
-A couple years before and after the study timeframe was added to show
-that there were no big changes outside of the chosen timeframe.
+### Correlation among variables
 
-![Aidflow: 1988-2016](aidflow_test3.gif)
+Before building a model with the available data, it is a good idea to
+check the correlation of the data to avoid multicollinearity.
+
+  - Most of the highly correlating variables are as expected (such as
+    the democratization dummy and change in Polity score, since the
+    democratization dummy is based on the Polity score).
+
+![Correlation Plot](corrplot.png)
